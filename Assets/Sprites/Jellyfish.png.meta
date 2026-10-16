@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 27bf7471cf5da2b4498201981e801d5f
+guid: 152ea60cc993623469eabdf76a45f7cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3280668015823330022
-    second: Aguviva_0
+      213: -5526632376494586773
+    second: Jellyfish 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Aguviva_0
+      name: Jellyfish_0
       rect:
         serializedVersion: 2
         x: 0
@@ -139,16 +139,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a156dd242d9b872d0800000000000000
-      internalID: -3280668015823330022
+      spriteID: 07e832569ce433d4bbf04b0d03f4f080
+      internalID: 1558803126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aguviva_1
+      name: Jellyfish_1
       rect:
         serializedVersion: 2
         x: 80
@@ -163,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9769d64833b9fc849ba62e91654814ea
-      internalID: 597245997
+      spriteID: ba37e3cb615b1b14faf49b56bde59b5b
+      internalID: -810698343
       vertices: []
       indices: 
       edges: []
@@ -173,7 +173,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a84d8c85cc02e38408f1edca1fbe5c34
+    spriteID: bd02a8e4ae0a33042843e5409deab7ed
     internalID: 0
     vertices: []
     indices: 
@@ -183,10 +183,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Aguviva_0: -3280668015823330022
-      Aguviva_1: 597245997
+      Jellyfish_0: 1558803126
+      Jellyfish_1: -810698343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
