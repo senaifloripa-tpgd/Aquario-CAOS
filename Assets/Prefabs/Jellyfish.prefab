@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6196350384764373284}
   - component: {fileID: 2141695217416941266}
   - component: {fileID: 947249138437132095}
+  - component: {fileID: 2431233909874321709}
   m_Layer: 0
   m_Name: Jellyfish
   m_TagString: JellyFish
@@ -179,3 +180,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cab5b798d9479b4991c6d40258a6081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerOneMove
+--- !u!95 &2431233909874321709
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3693142225171626986}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea05e39b720eac54692b10646aaf9061, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
