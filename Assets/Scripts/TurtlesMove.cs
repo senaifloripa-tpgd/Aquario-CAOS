@@ -47,6 +47,7 @@ public class TurtlesMove : MonoBehaviour
             // Stop turtles movement
             turtlePhysics.constraints = RigidbodyConstraints2D.FreezePositionX;
             turtlePhysics.constraints = RigidbodyConstraints2D.FreezePositionY;
+            turtlePhysics.constraints = RigidbodyConstraints2D.FreezeRotation;
 
         }
 
