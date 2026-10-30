@@ -15,12 +15,16 @@ public class JellyfishMove : MonoBehaviour
     // Variable to player sprite component (SpriteRenderer)
     private SpriteRenderer playerSprite;
 
+    // Variable to jellyfish animator component (Animator)
+    private Animator playerAnimator;
+
     void Awake()
     {        
 
-        // Component references rigidbody and spriterenderer
+        // Component references rigidbody, spriterenderer and animator
         playerPhysics = GetComponent<Rigidbody2D>();
         playerSprite = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
 
     }
 
@@ -43,6 +47,32 @@ public class JellyfishMove : MonoBehaviour
             playerPhysics.constraints = RigidbodyConstraints2D.FreezePositionX;
             playerPhysics.constraints = RigidbodyConstraints2D.FreezePositionY;
             playerPhysics.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        }
+
+        // Check if turtle direction is right
+        if (horizontalInput > 0)
+        {
+
+            // Set flip X to false and animation to running
+            playerSprite.flipX = false;
+            playerAnimator.SetBool("isRunning", true);
+
+            // Check if turtle direction is left
+        }
+        else if (horizontalInput < 0)
+        {
+
+            // Set flip X to true and animation to running
+            playerSprite.flipX = true;
+            playerAnimator.SetBool("isRunning", true);
+
+        }
+        else
+        {
+
+            // Sets animation to idle
+            playerAnimator.SetBool("isRunning", false);
 
         }
 

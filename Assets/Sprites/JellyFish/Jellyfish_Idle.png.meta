@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b63cbf913786cf04c9e8e5b19d4c2f87
+guid: ae054f89ce99b1742bb2f77ec7787fb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7293598183456022363
-    second: Apple_0
-  - first:
-      213: 3211865404380153573
-    second: Apple_1
+      213: -1813200891316267892
+    second: Jellyfish_Idle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apple_0
+      name: Jellyfish_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5f945b97e0183560800000000000000
-      internalID: 7293598183456022363
+      spriteID: c841ca6656736d6e0800000000000000
+      internalID: -1813200891316267892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_1
+      name: Jellyfish_Idle_1
       rect:
         serializedVersion: 2
         x: 80
@@ -164,10 +161,98 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e6027e6196d29c20800000000000000
-      internalID: 3211865404380153573
+      spriteID: 6392586e51f15cc42ade3ca47872032e
+      internalID: -403908562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellyfish_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031829a70f350f64c9c25b2fbe193152
+      internalID: -955344761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellyfish_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85daa0f639cb26d4c944e2004418f795
+      internalID: -833948525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellyfish_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687650d7b74a33f42b2f376254b3027c
+      internalID: -1637954590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellyfish_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79900b3357de47c4f9c568ccf28a7e44
+      internalID: 95096106
       vertices: []
       indices: 
       edges: []
@@ -176,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f8f86da17c9827446a38cde6dcbe5eb8
+    spriteID: 509d78d269de3c148a8454d9064f29d9
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +273,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Apple_0: 7293598183456022363
-      Apple_1: 3211865404380153573
+      Jellyfish_Idle_0: -1813200891316267892
+      Jellyfish_Idle_1: -403908562
+      Jellyfish_Idle_2: -955344761
+      Jellyfish_Idle_3: -833948525
+      Jellyfish_Idle_4: -1637954590
+      Jellyfish_Idle_5: 95096106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
