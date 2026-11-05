@@ -76,7 +76,7 @@ public class TurtlesMove : MonoBehaviour
         if(UIManager.gameTimer < 1 || UIManager.playerFishes == 5){
 
             // Set turtle color end game (red)
-            turtleSprite.color = new Color32(238, 72, 72, 255);
+            turtleSprite.color = new Color32(33, 55, 86, 255);
 
         }
         

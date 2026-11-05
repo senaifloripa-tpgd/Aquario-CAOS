@@ -120,8 +120,8 @@ public class UIManager : MonoBehaviour
             // Checks if timer is in the final countdown (10, 9, 8...)
             if(gameTimer <= 10){
 
-                // Set UI text timer to a "red" variation 
-                timerText.color = new Color32(238, 72, 72, 255);
+                // Set UI text timer to a "yellow" variation 
+                timerText.color = new Color32(237, 213, 79, 255);
 
             }
 
