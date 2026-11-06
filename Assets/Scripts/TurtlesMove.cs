@@ -75,8 +75,8 @@ public class TurtlesMove : MonoBehaviour
         // Check game time and total collected fishes conditions, to end game
         if(UIManager.gameTimer < 1 || UIManager.playerFishes == 5){
 
-            // Set turtle color end game (red)
-            turtleSprite.color = new Color32(33, 55, 86, 255);
+            // Sets animation to death
+            turtleAnimator.SetBool("isDeath", true);
 
         }
         

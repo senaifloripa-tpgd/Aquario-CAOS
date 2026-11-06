@@ -83,8 +83,8 @@ public class JellyfishMove : MonoBehaviour
         // Check if the object that collided has the tag "Turtle" 
         if(col.gameObject.CompareTag("Turtle")){
 
-            // Set player color end game (red)
-            playerSprite.color = new Color32(33, 55, 86, 255);
+            // Sets animation to death
+            playerAnimator.SetBool("isDeath", true);
 
         }
 
