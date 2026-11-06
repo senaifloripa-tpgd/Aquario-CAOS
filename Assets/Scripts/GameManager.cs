@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
         // Play click menu sound 
         AudioManager.instanceSound.PlayClickMenuSound();
 
-        // Reload game scene
+        // Load game scene
         SceneManager.LoadScene("Game");
 
     }
@@ -18,6 +18,13 @@ public class GameManager : MonoBehaviour
 
         // Play click menu sound 
         AudioManager.instanceSound.PlayClickMenuSound();
+
+        // Load main menu scene
+        SceneManager.LoadScene("MainMenu");
+
+    }
+
+    public void MainMenuAfterSplash(){
 
         // Load main menu scene
         SceneManager.LoadScene("MainMenu");
