@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -12,6 +14,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip soundFishCollect;
     public AudioClip soundClickMenu;
     public AudioClip soundGameOver;
+
+    // Variable to audio components (AudioClip)
+    public AudioClip menuMusic;
+    public AudioClip gameMusic;
 
     void Awake()
     {
@@ -31,6 +37,22 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
 
         }
+    }
+
+    public void PlayGameMusic()
+    {
+
+        // Play game music
+        soundsSource.clip = gameMusic;
+
+    }
+
+    public void PlayMenuMusic()
+    {
+
+        // Play menu music
+        soundsSource.clip = menuMusic;
+
     }
 
     public void PlayPointSound()
