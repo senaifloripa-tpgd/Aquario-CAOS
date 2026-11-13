@@ -54,10 +54,33 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void MainMenuAfterSplash(){
+    public void MainMenuFirst(){
+
+        // Play click menu sound 
+        AudioManager.instanceSound.PlayClickMenuSound();
 
         // Load main menu scene
         SceneManager.LoadScene("MainMenu");
+
+    }
+
+    public void Tutorial(){
+
+        // Play click menu sound 
+        AudioManager.instanceSound.PlayClickMenuSound();
+
+        // Load tutorial scene
+        SceneManager.LoadScene("Tutorial");
+
+    }
+
+    public void Credits(){
+        
+        // Play click menu sound 
+        AudioManager.instanceSound.PlayClickMenuSound();
+
+        // Load credits scene
+        SceneManager.LoadScene("Credits");
 
     }
 
