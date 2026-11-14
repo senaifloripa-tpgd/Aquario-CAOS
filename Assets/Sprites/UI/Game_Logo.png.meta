@@ -26,9 +26,6 @@ TextureImporter:
   - first:
       213: -8260609580584041987
     second: Game_Logo_7
-  - first:
-      213: -5080481907060083906
-    second: Game_Logo_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -251,9 +248,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 799
-        y: 189
+        y: 9
         width: 32
-        height: 31
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,28 +309,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Game_Logo_8
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 9
-        width: 32
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3372e18f908e79b0800000000000000
-      internalID: -5080481907060083906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -356,7 +331,6 @@ TextureImporter:
       Game_Logo_5: -8579138553692050767
       Game_Logo_6: -9182587156261814398
       Game_Logo_7: -8260609580584041987
-      Game_Logo_8: -5080481907060083906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

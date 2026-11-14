@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
         AudioManager.instanceSound.PlayClickMenuSound();
 
         // Load main menu scene
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
 
     }
 
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         AudioManager.instanceSound.PlayClickMenuSound();
 
         // Load main menu scene
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
 
     }
 
