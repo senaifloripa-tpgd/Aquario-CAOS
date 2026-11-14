@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 30b3c7ac14d85d74fbe32ebf93da0247
+guid: 0f99e8af5f6f2764bb711d3df71edd92
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -168421969075237668
-    second: pixil-frame-0 (2)_0
+      213: 1623950867802832547
+    second: Game_Logo_0
   - first:
-      213: -249628310123516169
-    second: pixil-frame-0 (2)_1
+      213: -1612555097856472212
+    second: Game_Logo_1
   - first:
-      213: 6950916264672091854
-    second: pixil-frame-0 (2)_2
+      213: -8960633135387541022
+    second: Game_Logo_2
   - first:
-      213: 87419031593189281
-    second: pixil-frame-0 (2)_3
+      213: -1390563707178839377
+    second: Game_Logo_3
   - first:
-      213: 7080715997881667233
-    second: pixil-frame-0 (2)_4
+      213: -4219042577546097680
+    second: Game_Logo_4
   - first:
-      213: -4512349985842528654
-    second: pixil-frame-0 (2)_5
+      213: -8579138553692050767
+    second: Game_Logo_5
   - first:
-      213: 1301278337192169457
-    second: pixil-frame-0 (2)_6
+      213: -9182587156261814398
+    second: Game_Logo_6
   - first:
-      213: -3625319683996010164
-    second: pixil-frame-0 (2)_7
+      213: -8260609580584041987
+    second: Game_Logo_7
   - first:
-      213: 887692905118280314
-    second: pixil-frame-0 (2)_8
+      213: -5080481907060083906
+    second: Game_Logo_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,19 +121,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -150,12 +137,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_0
+      name: Game_Logo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 9
-        width: 151
+        width: 131
         height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,17 +152,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdc06e88c15a9adf0800000000000000
-      internalID: -168421969075237668
+      spriteID: 3ae3310d5be698610800000000000000
+      internalID: 1623950867802832547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_1
+      name: Game_Logo_1
       rect:
         serializedVersion: 2
-        x: 169
+        x: 159
         y: 0
         width: 132
         height: 220
@@ -187,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fee431ef54298cf0800000000000000
-      internalID: -249628310123516169
+      spriteID: c6b0583aead0f99e0800000000000000
+      internalID: -1612555097856472212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_2
+      name: Game_Logo_2
       rect:
         serializedVersion: 2
         x: 319
@@ -209,17 +196,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eced343e38d967060800000000000000
-      internalID: 6950916264672091854
+      spriteID: 2e181aa83af65a380800000000000000
+      internalID: -8960633135387541022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_3
+      name: Game_Logo_3
       rect:
         serializedVersion: 2
-        x: 469
+        x: 479
         y: 9
         width: 132
         height: 211
@@ -231,19 +218,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1af78b46523963100800000000000000
-      internalID: 87419031593189281
+      spriteID: fa21e040da9b3bce0800000000000000
+      internalID: -1390563707178839377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_4
+      name: Game_Logo_4
       rect:
         serializedVersion: 2
-        x: 619
+        x: 639
         y: 9
-        width: 142
+        width: 132
         height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -253,17 +240,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ae89215fa1c34260800000000000000
-      internalID: 7080715997881667233
+      spriteID: 0fbcd111123f275c0800000000000000
+      internalID: -4219042577546097680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_5
+      name: Game_Logo_5
       rect:
         serializedVersion: 2
-        x: 779
+        x: 799
         y: 189
         width: 32
         height: 31
@@ -275,17 +262,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27efd976899e061c0800000000000000
-      internalID: -4512349985842528654
+      spriteID: 1baa35c80f6c0f880800000000000000
+      internalID: -8579138553692050767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_6
+      name: Game_Logo_6
       rect:
         serializedVersion: 2
-        x: 829
+        x: 859
         y: 9
         width: 132
         height: 211
@@ -297,19 +284,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ff0042d0c11f0210800000000000000
-      internalID: 1301278337192169457
+      spriteID: 28f33fff1a5e09080800000000000000
+      internalID: -9182587156261814398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_7
+      name: Game_Logo_7
       rect:
         serializedVersion: 2
-        x: 979
+        x: 1019
         y: 9
-        width: 211
+        width: 151
         height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -319,17 +306,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c49bf2684f640bdc0800000000000000
-      internalID: -3625319683996010164
+      spriteID: df189116a5b6c5d80800000000000000
+      internalID: -8260609580584041987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (2)_8
+      name: Game_Logo_8
       rect:
         serializedVersion: 2
-        x: 779
+        x: 799
         y: 9
         width: 32
         height: 172
@@ -341,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7aa5377ef7b15c00800000000000000
-      internalID: 887692905118280314
+      spriteID: e3372e18f908e79b0800000000000000
+      internalID: -5080481907060083906
       vertices: []
       indices: 
       edges: []
@@ -361,15 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixil-frame-0 (2)_0: -168421969075237668
-      pixil-frame-0 (2)_1: -249628310123516169
-      pixil-frame-0 (2)_2: 6950916264672091854
-      pixil-frame-0 (2)_3: 87419031593189281
-      pixil-frame-0 (2)_4: 7080715997881667233
-      pixil-frame-0 (2)_5: -4512349985842528654
-      pixil-frame-0 (2)_6: 1301278337192169457
-      pixil-frame-0 (2)_7: -3625319683996010164
-      pixil-frame-0 (2)_8: 887692905118280314
+      Game_Logo_0: 1623950867802832547
+      Game_Logo_1: -1612555097856472212
+      Game_Logo_2: -8960633135387541022
+      Game_Logo_3: -1390563707178839377
+      Game_Logo_4: -4219042577546097680
+      Game_Logo_5: -8579138553692050767
+      Game_Logo_6: -9182587156261814398
+      Game_Logo_7: -8260609580584041987
+      Game_Logo_8: -5080481907060083906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
