@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 421942013}
   - component: {fileID: 421942012}
   m_Layer: 0
-  m_Name: Senai_Game_Lab_Logo
+  m_Name: GameLab_Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
