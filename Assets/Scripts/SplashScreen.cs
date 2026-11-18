@@ -8,7 +8,7 @@ public class SplashScreen : MonoBehaviour
     {
 
         Invoke("LogoSound", 1f);
-        Invoke("MainMenu", 3f);
+        Invoke("MainMenu", 4f);
         
     }
 

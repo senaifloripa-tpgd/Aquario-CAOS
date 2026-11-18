@@ -84,4 +84,14 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void Quit(){
+        
+        // Play click menu sound 
+        AudioManager.instanceSound.PlayClickMenuSound();
+
+        // Quit game
+        Application.Quit();
+
+    }
+
 }
