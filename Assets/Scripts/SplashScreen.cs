@@ -22,7 +22,7 @@ public class SplashScreen : MonoBehaviour
     public void LogoSound(){
 
         // Play logo sound 
-        AudioManager.instanceSound.PlayClickMenuSound();
+        AudioManager.instanceSound.PlayLogoSound();
 
     }
 

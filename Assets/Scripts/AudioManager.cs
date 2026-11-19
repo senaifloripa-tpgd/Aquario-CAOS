@@ -12,8 +12,14 @@ public class AudioManager : MonoBehaviour
     public AudioSource soundsSource;
     public AudioClip soundPointCollect;
     public AudioClip soundFishCollect;
-    public AudioClip soundClickMenu;
+    public AudioClip soundUIButton;
     public AudioClip soundGameOver;
+    public AudioClip soundLogoSplash;
+    public AudioClip soundTitle;
+    public AudioClip soundSlogan;
+    public AudioClip soundSlideButton;
+    public AudioClip soundBubble;
+
 
     // Variable to audio components (AudioClip)
     public AudioClip menuMusic;
@@ -75,7 +81,7 @@ public class AudioManager : MonoBehaviour
     {
 
         // Play sound click
-        soundsSource.PlayOneShot(soundClickMenu);
+        soundsSource.PlayOneShot(soundUIButton);
 
     }
 
@@ -84,6 +90,46 @@ public class AudioManager : MonoBehaviour
 
         // Play sound game over
         soundsSource.PlayOneShot(soundGameOver);
+
+    }
+
+    public void PlayLogoSound()
+    {
+
+        // Play sound logo
+        soundsSource.PlayOneShot(soundLogoSplash);
+
+    }
+
+    public void PlayTitleSound()
+    {
+
+        // Play sound title
+        soundsSource.PlayOneShot(soundTitle);
+
+    }
+
+    public void PlaySloganSound()
+    {
+
+        // Play sound slogan
+        soundsSource.PlayOneShot(soundSlogan);
+
+    }
+
+    public void PlaySlideButtonSound()
+    {
+
+        // Play sound slide button
+        soundsSource.PlayOneShot(soundSlideButton);
+
+    }
+
+    public void PlayBubbleSound()
+    {
+
+        // Play sound bubble
+        soundsSource.PlayOneShot(soundBubble);
 
     }
 

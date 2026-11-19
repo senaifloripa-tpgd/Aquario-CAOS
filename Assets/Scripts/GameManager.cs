@@ -11,9 +11,6 @@ public class GameManager : MonoBehaviour
         // Get scene that load
         Scene scene = SceneManager.GetActiveScene();
 
-        // Show scene name 
-        Debug.Log(scene.name);
-
         // Check if scene is game and play game music
         if (scene.name == "Game")
         {

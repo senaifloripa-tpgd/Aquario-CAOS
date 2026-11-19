@@ -129,8 +129,9 @@ GameObject:
   m_Component:
   - component: {fileID: 308126819}
   - component: {fileID: 308126818}
+  - component: {fileID: 308126820}
   m_Layer: 0
-  m_Name: Bubble_0
+  m_Name: Bubble_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,11 +206,33 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.49, y: 3.65, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &308126820
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308126817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4343c85e5a69d8c45b2ca309dc637588, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &393873257
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,8 +243,9 @@ GameObject:
   m_Component:
   - component: {fileID: 393873259}
   - component: {fileID: 393873258}
+  - component: {fileID: 393873260}
   m_Layer: 0
-  m_Name: Bubble_0 (1)
+  m_Name: Bubble_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,11 +320,33 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.48, y: -3.53, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &393873260
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393873257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 624aae95c18d28544b2c97f5dd9e3460, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &552772947
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +790,7 @@ GameObject:
   - component: {fileID: 1035662671}
   - component: {fileID: 1035662670}
   - component: {fileID: 1035662674}
+  - component: {fileID: 1035662675}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -852,6 +899,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c44812a86a238344a2b74822088e078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+--- !u!114 &1035662675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035662669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea514b49f813847992c9da75f29efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuSoundsManager
 --- !u!1 &1105372382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,8 +1801,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1726373821}
   - component: {fileID: 1726373820}
+  - component: {fileID: 1726373822}
   m_Layer: 0
-  m_Name: Bubble_0 (2)
+  m_Name: Bubble_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1818,11 +1878,33 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.44, y: 1.04, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1726373822
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726373819}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80cfd56e37b715742a07ba7840cd7241, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1884439583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,10 +2073,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   soundsSource: {fileID: 1942395336}
-  soundPointCollect: {fileID: 8300000, guid: 7b9f33ee31ce53b4eb217ad32bb1e18c, type: 3}
-  soundFishCollect: {fileID: 8300000, guid: e8cb93c94d0932e408c851590fb09d6b, type: 3}
-  soundClickMenu: {fileID: 8300000, guid: 00e2375b6fed42e4e9d37c6ebaf9f9ba, type: 3}
-  soundGameOver: {fileID: 8300000, guid: 5a6c93d0ba86f77458e1156e917a93c6, type: 3}
+  soundPointCollect: {fileID: 8300000, guid: 9129315219c905b478d9fdf219d86c23, type: 3}
+  soundFishCollect: {fileID: 8300000, guid: 7b9f33ee31ce53b4eb217ad32bb1e18c, type: 3}
+  soundUIButton: {fileID: 8300000, guid: d4d3911015292624cb2d20e97c7b2a9f, type: 3}
+  soundGameOver: {fileID: 8300000, guid: d88d5afdd94356745b40505e17342d3c, type: 3}
+  soundLogoSplash: {fileID: 8300000, guid: 794804b4053c93e49a0a908f4d4c4318, type: 3}
+  soundTitle: {fileID: 8300000, guid: 55f739957ec05dc45afc198fd5f7a3f4, type: 3}
+  soundSlogan: {fileID: 8300000, guid: 8df7b1a19e06f484ca15b0d31cb1949f, type: 3}
+  soundSlideButton: {fileID: 8300000, guid: 169e3958f30181645a139e761d27ed45, type: 3}
+  soundBubble: {fileID: 8300000, guid: e8cb93c94d0932e408c851590fb09d6b, type: 3}
   menuMusic: {fileID: 8300000, guid: 0a3da210c459a614e8be1c9b3243161d, type: 3}
   gameMusic: {fileID: 8300000, guid: 5f86196752a2c8d4dbe6b69cf90ed4e5, type: 3}
 --- !u!4 &1942395335
